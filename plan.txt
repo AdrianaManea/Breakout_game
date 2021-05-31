@@ -1,0 +1,28 @@
+1. Create canvas context - x
+2. Create and draw ball - x
+3. Create and draw paddle - x
+4. Create bricks - x
+ - create an array within an array because we have rows of columns of bricks
+ - arrays, forEach loops so we can loop through and do what we need with each brick
+ - each brick will have some properties
+  - like visible - for when we hit it with the ball we want it to disappear
+5. Draw score - x
+ - if we break a score is going to increase by 1
+ - braw text onto a canvas
+6. Add update() - x
+- Animate 
+  - redraw the canvas. And when we redraw we might have the paddle in a diffent position or different bricks broken
+- we can do this with a function - requestAnimationFrame(cb) 
+7. Move paddle - x
+ - when we start the animation the first thing we want to do is move the paddle
+ - and we're going to do that by using keyboard events
+8. Keyboard event handlers to move paddle - x
+9. Move ball - x
+ - once we're going to be able to move the paddle we want to be able to move the ball
+ - the most in depth part of this project
+  - including adding boundaries
+10. Add wall bounderies - x
+ - if it hits the side of the canvas it needs to bounce back instead of going of the screen
+11. Increase score when bricks break
+12. Lose 
+- when we lose - redraw bricks, reset score
