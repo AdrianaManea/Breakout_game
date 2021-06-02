@@ -23,6 +23,6 @@
   - including adding boundaries
 10. Add wall bounderies - x
  - if it hits the side of the canvas it needs to bounce back instead of going of the screen
-11. Increase score when bricks break
-12. Lose 
+11. Increase score when bricks break - x
+12. Lose - x
 - when we lose - redraw bricks, reset score
